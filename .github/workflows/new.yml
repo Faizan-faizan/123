@@ -7,8 +7,8 @@ on:
 
 env:
   AWS_REGION:ap-south-1
-  AWS_ACCESS_KEY_ID: "${{AKIAWH4J6S65IOFMONUX}}"
-  AWS_SECRET_ACCESS_KEY: "${{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}}"
+  AWS_ACCESS_KEY_ID: "${{secrets.AWS_ACCESS_KEY_ID}}"
+  AWS_SECRET_ACCESS_KEY: "${{secrets.AWS_SECRET_ACCESS_KEY}}"
 
 jobs:
   deploy:
